@@ -1,0 +1,15 @@
+{
+    "name": "docker-angular-cli",
+    "version": "0.0.1",
+    "description": "A minimal docker image for angular-cli based projects",
+    "main": "",
+    "scripts": {
+      "docker:build": "docker build --tag=coodoogmbh/angular-cli .",
+      "docker:run": "docker run -it coodoogmbh/angular-cli",
+      "docker:run:bash": "docker run -it coodoogmbh/angular-cli /bin/sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:coodoo-io/docker-angular-cli.git"
+    }
+  }
