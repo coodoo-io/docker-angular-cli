@@ -5,8 +5,7 @@
     "main": "",
     "scripts": {
       "docker:build": "docker build --tag=coodoogmbh/angular-cli .",
-      "docker:run": "docker run -it coodoogmbh/angular-cli",
-      "docker:run:bash": "docker run -it coodoogmbh/angular-cli /bin/sh"
+      "docker:run": "docker run -it coodoogmbh/angular-cli"
     },
     "repository": {
       "type": "git",
